@@ -11,7 +11,7 @@ for (let i = 0; i < a.length; i++) {
   for (let j = 0; j < a.length; j++) {
     if (a[i] + a[j] === k) {
       console.log(`Result: ${a[i]} + ${a[j]} = ${k}`);
-      return;
+      return true;
     } else {
       console.log(`Invalid: ${a[i]} + ${a[j]} != ${k}`);
     }
